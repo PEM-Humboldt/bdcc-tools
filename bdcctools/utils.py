@@ -4,6 +4,22 @@ General helper functions.
 import pandas as pd
 
 
+def fuzzy_match(observed: pd.Series, expected: pd.Series) -> pd.Series:
+    """
+
+
+    Parameters
+    ----------
+    observed
+    expected
+
+    Returns
+    -------
+
+    """
+    pass
+
+
 def verify(
     df: pd.DataFrame,
     observed_col: str,
